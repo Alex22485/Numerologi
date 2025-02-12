@@ -6,7 +6,7 @@ export default function App() {
     <View style={styles.container}>
       <Image
         style={styles.img}
-        source={require("../assets/FirsPicturePage.pngy")}
+        source={require("../assets/FirsPicturePage.png")}
       ></Image>
     </View>
   );
