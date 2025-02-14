@@ -10,12 +10,10 @@ export default function InputAuth({ placeHolder }) {
 
 const styles = StyleSheet.create({
   inputView: {
-    flex: 1,
-    marginBottom: 32,
+    // flex: 1,
+    marginBottom: 29,
     width: "85%",
     alignSelf: "center",
-
-    justifyContent: "space-between",
   },
   inputView_item: {
     height: 48,

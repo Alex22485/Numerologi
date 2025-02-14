@@ -1,6 +1,7 @@
 import { View, Text, StyleSheet } from "react-native";
 import { Colors, Size } from "../components/tokens";
 import InputAuth from "../components/InputAuth";
+import BtnAuth from "../components/BtnAuth";
 
 export default function Auth() {
   return (
@@ -11,6 +12,7 @@ export default function Auth() {
         <InputAuth placeHolder={"Телефон"} />
         <InputAuth placeHolder={"Email"} />
         <InputAuth placeHolder={"Password"} />
+        <BtnAuth />
       </View>
     </View>
   );
@@ -25,17 +27,9 @@ const styles = StyleSheet.create({
     fontSize: Size.fs_title,
     color: Colors.text_Color_Title,
     textAlign: "center",
-    paddingTop: "10%",
+    marginTop: "10%",
   },
   conteiner_input: {
-    // flex: 1,
-    marginTop: "20%",
-    backgroundColor: "#FFFFFF",
-    height: "40%",
-
-    // alignSelf: "stretch",
-    // flex: 1,
-    // justifyContent: "center",
-    // alignSelf: "center",
+    marginTop: 78,
   },
 });
